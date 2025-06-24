@@ -1,0 +1,62 @@
+/* Stories Tab Styles */
+.stories-intro-card {
+  margin: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.story-card {
+  margin: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.story-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.story-avatar {
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+}
+
+.story-info h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--ion-color-primary);
+  margin: 0 0 4px 0;
+}
+
+.story-time {
+  font-size: 12px;
+  color: var(--ion-color-medium);
+  margin: 0;
+}
+
+.story-content h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--ion-color-dark);
+  margin-bottom: 8px;
+}
+
+.story-content p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--ion-color-dark);
+  margin-bottom: 16px;
+}
+
+.story-actions {
+  display: flex;
+  gap: 16px;
+  border-top: 1px solid var(--ion-color-light);
+  padding-top: 12px;
+}
+
+.story-actions ion-button {
+  font-size: 12px;
+}

@@ -1,2 +1,88 @@
 /* For information on how to create your own theme, please see:
 http://ionicframework.com/docs/theming/ */
+
+/* ABI 96 Nachtreffen App - 30 Jahre später! */
+:root {
+  /* Primary color - Nostalgic Blue (wie die 90er) */
+  --ion-color-primary: #2E86AB;
+  --ion-color-primary-rgb: 46, 134, 171;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #287696;
+  --ion-color-primary-tint: #4392b3;
+
+  /* Secondary color - Reunion Gold */
+  --ion-color-secondary: #F18F01;
+  --ion-color-secondary-rgb: 241, 143, 1;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255, 255, 255;
+  --ion-color-secondary-shade: #d47e01;
+  --ion-color-secondary-tint: #f29f1a;
+
+  /* Tertiary color - Memory Purple (90s Nostalgie) */
+  --ion-color-tertiary: #A663CC;
+  --ion-color-tertiary-rgb: 166, 99, 204;
+  --ion-color-tertiary-contrast: #ffffff;
+  --ion-color-tertiary-contrast-rgb: 255, 255, 255;
+  --ion-color-tertiary-shade: #9257b4;
+  --ion-color-tertiary-tint: #af73d1;
+
+  /* Success color - Bright Green */
+  --ion-color-success: #10DC60;
+  --ion-color-success-rgb: 16, 220, 96;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-contrast-rgb: 255, 255, 255;
+  --ion-color-success-shade: #0ec254;
+  --ion-color-success-tint: #28e070;
+
+  /* Warning color - Academic Orange */
+  --ion-color-warning: #FFB347;
+  --ion-color-warning-rgb: 255, 179, 71;
+  --ion-color-warning-contrast: #000000;
+  --ion-color-warning-contrast-rgb: 0, 0, 0;
+  --ion-color-warning-shade: #e09e3e;
+  --ion-color-warning-tint: #ffbb59;
+
+  /* Danger color - Alert Red */
+  --ion-color-danger: #F53D3D;
+  --ion-color-danger-rgb: 245, 61, 61;
+  --ion-color-danger-contrast: #ffffff;
+  --ion-color-danger-contrast-rgb: 255, 255, 255;
+  --ion-color-danger-shade: #d83636;
+  --ion-color-danger-tint: #f65050;
+
+  /* Background colors */
+  --ion-background-color: #fafafa;
+  --ion-background-color-rgb: 250, 250, 250;
+
+  /* Text colors */
+  --ion-text-color: #2c3e50;
+  --ion-text-color-rgb: 44, 62, 80;
+}
+
+/* Spezielle Styles für das 30-jährige Nachtreffen */
+.reunion-gradient {
+  background: linear-gradient(135deg, var(--ion-color-primary) 0%, var(--ion-color-secondary) 100%);
+}
+
+.nostalgia-text {
+  font-family: 'Times New Roman', serif;
+  font-style: italic;
+}
+
+.anniversary-badge {
+  background: linear-gradient(45deg, var(--ion-color-secondary), var(--ion-color-tertiary));
+  color: white;
+  font-weight: bold;
+}
+
+/* 90er Jahre inspirierte Akzente */
+.retro-border {
+  border: 2px solid var(--ion-color-tertiary);
+  border-radius: 8px;
+}
+
+.memory-card {
+  background: linear-gradient(145deg, #f0f0f0, #ffffff);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}

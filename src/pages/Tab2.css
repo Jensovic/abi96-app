@@ -1,0 +1,44 @@
+/* Fotos Tab Styles */
+.photo-gallery-card {
+  margin: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.photo-categories-card {
+  margin: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.photo-category {
+  text-align: center;
+  padding: 16px;
+  border-radius: 8px;
+  background: var(--ion-color-light);
+  margin-bottom: 8px;
+}
+
+.photo-category ion-img {
+  border-radius: 8px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.photo-category h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--ion-color-primary);
+  margin-bottom: 4px;
+}
+
+.photo-category p {
+  font-size: 14px;
+  color: var(--ion-color-medium);
+  margin: 0;
+}
+
+.photo-fab {
+  --background: var(--ion-color-primary);
+  --color: white;
+}

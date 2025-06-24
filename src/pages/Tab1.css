@@ -1,0 +1,54 @@
+/* Nachtreffen Tab Styles */
+.reunion-card {
+  margin: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, var(--ion-color-primary) 0%, var(--ion-color-secondary) 100%);
+  color: white;
+}
+
+.reunion-card ion-card-title {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+.reunion-info h2 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.reunion-info p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.event-details-card {
+  margin: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.detail-item {
+  --padding-start: 20px;
+  --padding-end: 20px;
+  --min-height: 70px;
+}
+
+.detail-item h2 {
+  font-weight: 600;
+  color: var(--ion-color-primary);
+  margin-bottom: 4px;
+}
+
+.detail-item p {
+  color: var(--ion-color-medium);
+  font-size: 14px;
+}
+
+.rsvp-button {
+  margin-top: 16px;
+  font-weight: 600;
+}
