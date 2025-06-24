@@ -1,0 +1,7 @@
+{
+  "name": "abi96-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
